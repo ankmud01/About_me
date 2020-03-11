@@ -1,13 +1,12 @@
 #content{
-    /* background-color: #c4d7e2; */
     background-image: url(./Assets/Images/background2.jpg);
     background-size: cover;
 }
-#box{
+#i-box, #p-box, #c-box{
     margin-top: 20px;
     background-color: rgb(248, 236, 236);
 }
-#abt-me{
+#abt-me, #my-portfolio, #my-contacts{
     margin-top: 15px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -22,7 +21,6 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
     height: 50px;
     background-color: #cae5f8;
     text-align: center;
@@ -30,9 +28,7 @@
 .foot{
     margin-top: 15px;
 }
-#contacts{
-    margin-top: 30px;
-    background-color: rgb(248, 236, 236);
-    padding-top: 10px;
-    padding-bottom: 30px;
+#firstsectionpic, #secondsectionpic, #thirdsectionpic{
+    margin-top: 10px;
+    padding: 10px;
 }
