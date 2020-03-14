@@ -2,9 +2,9 @@
     background-image: url(./Assets/Images/background3.png);
     background-size: cover;
 }
-/* .container{
-    position: relative;
-} */
+.container{
+ align-self: center;  
+}
 #i-box, #p-box, #c-box{
     margin-top: 20px;
     /* height: 100%;
