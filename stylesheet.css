@@ -1,5 +1,5 @@
 #content{
-    background-image: url(./Assets/Images/background2.jpg);
+    background-image: url(./Assets/Images/background3.png);
     background-size: cover;
 }
 /* .container{
@@ -14,7 +14,8 @@
     margin-right: -50px;
     bottom: 70%;
     margin-bottom: -50px; */
-    background-color: rgb(248, 236, 236);
+    background-color: rgb(174, 213, 245);
+    align-self: center;
 }
 #abt-me, #my-portfolio, #my-contacts{
     margin-top: 15px;
@@ -39,6 +40,6 @@
     margin-top: 15px;
 }
 #firstsectionpic, #secondsectionpic, #thirdsectionpic{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding: 10px;
 }
