@@ -1,33 +1,43 @@
-#content{
-    background-image: url(./Assets/Images/background3.png);
+.sidenav{
+    background-image: url(./Assets/Images/abst_background.jpg);
     background-size: cover;
+    height: 100%;
 }
-.container{
+#m-avatar{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+#m-name, #m-title{
+    text-align: center;
+}
+
+
+/* .container{
  align-self: center;  
-}
-#i-box, #p-box, #c-box{
+} */
+/* #i-box, #p-box, #c-box{
     margin-top: 20px;
-    /* height: 100%;
+    height: 100%;
     width: 100%;
     position: absolute;
     right: 50%;
     margin-right: -50px;
     bottom: 70%;
-    margin-bottom: -50px; */
+    margin-bottom: -50px;
     background-color: rgb(174, 213, 245);
     align-self: center;
-}
-#abt-me, #my-portfolio, #my-contacts{
+} */
+/* #abt-me, #my-portfolio, #my-contacts{
     margin-top: 15px;
     margin-bottom: 20px;
     margin-right: 20px;
     color:olivedrab ;
     font-family: serif;
     padding-left: 0px;
-}
-.description{
+} */
+/* .description{
     margin-right: 10px;
-}
+}*/
 .my-footer{
     position: fixed;
     bottom: 0;
@@ -38,8 +48,13 @@
 }
 .foot{
     margin-top: 15px;
-}
-#firstsectionpic, #secondsectionpic, #thirdsectionpic{
-    /* margin-top: 10px; */
+} 
+/* #firstsectionpic, #secondsectionpic, #thirdsectionpic{
+    margin-top: 10px;
     padding: 10px;
+}
+*/
+img{
+    height: auto;
+    width: auto;
 }

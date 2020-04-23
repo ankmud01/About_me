@@ -4,18 +4,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Page</title>
+  <title>Portfolio - Ankit Mudvari</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     type="text/css">
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
   <meta name="viewport" content="width-device-width, initial-scale=1">
 </head>
 
-<body id="content">
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #cae5f8;">
+<body>
+<main>
+  <div class="row">
+    <div class="col-3 sidenav">
+      <div class="descbox">
+        <div class="mypic" id="m-avatar">
+          <img class="img-thumbnail description float-left margin-right=40px" src="./Assets/Images/mypic.jpg"
+          atl="My Pic">
+        </div>
+        <div class="namentitle">
+          <h3 id="m-name">Ankit Mudvari</h3>
+          <h5 id="m-title">Full Stack Web Developer</h5>
+        </div>
+      </div>
+      <nav class="nav flex-column m-menu">
+          <li class="menuitem text-center text-uppercase" id="aboutme">
+            <a class="nav-link active" href="#">About Me</a>
+          </li>
+          <li class="menuitem text-center text-uppercase" id="portfilio">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="menuitem text-center text-uppercase" id="contactme">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+      </nav>
+    </div>
+    <div class="col-9 m-content">
+
+    </div>
+  </div>
+</main>
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #cae5f8;">
     <a class="navbar-brand text-center"
       style="background-color: olivedrab; width: 150px; height: 100%; margin-left: 140px;" id="my-name"
-      href="index.html">Ankit Mudvari</a>
+      href="index.html">About Me</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,13 +59,13 @@
       </div>
   </nav>
   <main class="container">
-    <div class="row border border-success col-7" id="i-box">
-      <div class="col border-bottom border-success" id="abt-me">
-        <h3>About Me</h3>
+    <div class="card" id="i-box">
+      <div class="card-header" id="abt-me">
+        <h1>Ankit Mudvari</h1>
       </div>
-      <div>
-        <img class="img-thumbnail description float-left margin-right=40px" src="http://placehold.jp/150x150.png"
-          atl="My Pic">
+      <div class="card-body">
+        <img class="img-thumbnail description float-left margin-right=40px" src="./Assets/Images/mypic.jpg"
+        atl="My Pic">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, voluptatem omnis consectetur animi, deleniti
           placeat dignissimos doloribus, similique nam quam soluta earum dolorem asperiores officiis atque distinctio
@@ -49,11 +80,11 @@
         </p>
       </div>
     </div>
-  </main>
+  </main> -->
 </body>
 <footer>
   <div class="my-footer">
-    <p class="foot">@Copyright 2020 Ankit Mudvari</p>
+    <p class="foot">@Copyright My Content :)</p>
   </div>
 </footer>
 
