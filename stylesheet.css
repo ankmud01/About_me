@@ -1,60 +1,44 @@
-.sidenav{
-    background-image: url(./Assets/Images/abst_background.jpg);
-    background-size: cover;
+body, html {
     height: 100%;
-}
+    background-image: url(./Assets/Images/abst_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 #m-avatar{
     margin-top: 80px;
-    margin-bottom: 10px;
 }
 #m-name, #m-title{
     text-align: center;
 }
-
-
-/* .container{
- align-self: center;  
-} */
-/* #i-box, #p-box, #c-box{
-    margin-top: 20px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    right: 50%;
-    margin-right: -50px;
-    bottom: 70%;
-    margin-bottom: -50px;
-    background-color: rgb(174, 213, 245);
-    align-self: center;
-} */
-/* #abt-me, #my-portfolio, #my-contacts{
-    margin-top: 15px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    color:olivedrab ;
-    font-family: serif;
-    padding-left: 0px;
-} */
-/* .description{
-    margin-right: 10px;
-}*/
-.my-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: #cae5f8;
-    text-align: center;
+.home-section {
+    padding-left: 110px;
+    padding-top: 130px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+    font-size: 12px;
 }
-.foot{
-    margin-top: 15px;
-} 
-/* #firstsectionpic, #secondsectionpic, #thirdsectionpic{
-    margin-top: 10px;
-    padding: 10px;
+.home-section .home-heading {
+    font-size: 4em;
+    font-weight: 500;
 }
-*/
+.home-section .home-subheading {
+    font-size: 2.5em;
+    font-weight: 200;
+    text-transform: none;
+}
+.m-links{
+    margin-top: 2.15em;
+    font-size: 1em;
+    text-decoration: underline;
+    animation-name: fadein;
+
+}
 img{
     height: auto;
     width: auto;
+}
+/* Portfolio CSS */
+.portfolio-section{
+    padding-left: 110px;
+    padding-top: 100px;
 }
