@@ -1,3 +1,4 @@
+/* Body and Container CSS */
 body, html {
     height: 100%;
     background-image: url(./Assets/Images/abst_background.jpg);
@@ -5,15 +6,30 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+.container-float{
+    display:table;
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px; /*set left/right padding according to needs*/
+    box-sizing: border-box;
+}
+
+/* Picture, Name and Title CSS */
 #m-avatar{
     margin-top: 80px;
+}
+img{
+    height: 90%;
+    width: 90%;
 }
 #m-name, #m-title{
     text-align: center;
 }
+
+/* About Me body section CSS */
 .home-section {
-    padding-left: 110px;
-    padding-top: 130px;
+    padding-left: 210px;
+    padding-top: 180px;
     text-shadow: 1px 1px 2px rgba(0,0,0,.6);
     font-size: 12px;
 }
@@ -21,8 +37,12 @@ body, html {
     font-size: 4em;
     font-weight: 500;
 }
+.home-heading2 {
+    font-size: 3em;
+    font-weight: 500;
+}
 .home-section .home-subheading {
-    font-size: 2.5em;
+    font-size: 2.0em;
     font-weight: 200;
     text-transform: none;
 }
@@ -33,12 +53,13 @@ body, html {
     animation-name: fadein;
 
 }
-img{
-    height: auto;
-    width: auto;
-}
+
 /* Portfolio CSS */
-.portfolio-section{
+/* .portfolio-section{
     padding-left: 110px;
     padding-top: 100px;
+} */
+
+section{
+    display: block;
 }
