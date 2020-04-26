@@ -1,30 +1,76 @@
-body, html {
+/* Body and Container CSS */
+.m-modal {
+    position: fixed; 
     height: 100%;
-    background-image: url(./Assets/Images/abst_background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+ }
+    
+.m-modal::before {    
+    content: "";
+    background-image: url(./Assets/Images/background.jpg);
     background-size: cover;
-  }
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+.maincontainer{
+    display:table;
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+/* Picture, Name and Title CSS */
 #m-avatar{
-    margin-top: 80px;
+    margin-top: 120px;
+    margin-left: 10px;
+}
+img{
+    height: 90%;
+    width: 95%;
 }
 #m-name, #m-title{
     text-align: center;
 }
+
+/* About Me body section CSS */
+.namentitle{
+    font-family: 'Girassol', cursive;
+    /* color: #FF0000; */
+    font-weight: bolder;
+    text-align: center;
+}
 .home-section {
-    padding-left: 110px;
+    padding-left: 100px;
     padding-top: 130px;
     text-shadow: 1px 1px 2px rgba(0,0,0,.6);
     font-size: 12px;
+    color:#202020;
 }
 .home-section .home-heading {
     font-size: 4em;
-    font-weight: 500;
+    font-weight: bolder;
+    font-family: 'Girassol', cursive;
+    
+}
+.home-heading2 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    font-family: 'Girassol', cursive;
 }
 .home-section .home-subheading {
-    font-size: 2.5em;
-    font-weight: 200;
+    display: inline-block;
+    font-size: 2.2em;
+    font-weight: normal;
     text-transform: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .m-links{
     margin-top: 2.15em;
@@ -33,12 +79,62 @@ body, html {
     animation-name: fadein;
 
 }
-img{
-    height: auto;
-    width: auto;
-}
+
 /* Portfolio CSS */
 .portfolio-section{
-    padding-left: 110px;
-    padding-top: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.screenshot{
+    /* margin-bottom: -50px; */
+    margin-top: 30px;
+}
+.card-heading{
+    font-size: 2em;
+    font-weight: 500;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 5px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+}
+.projectdetail{
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: medium;
+}
+.tech{
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Contact Me CSS */
+.contactme-section {
+    padding-left: 100px;
+    padding-top: 130px;
+}
+.contactme-title{
+    line-height: 1;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+    font-size: 36px;
+    font-weight: 500;
+}
+.contactme-content{
+    display: block;
+    font-size: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.col-form-label{
+    display: block;
+    clear: both;
+    width: 90px;
+    color: #202020;
+    font-weight: bold;
+}
+.info{
+    color: #FF0000;
 }
