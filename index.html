@@ -2,66 +2,210 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Ankit Mudvari</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    type="text/css">
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
-  <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfileTest</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Fontawesome Link -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-  <main>
-    <div class="container-float">
-      <div class="row">
-        <div class="col-md-3 sidenav">
-          <div class="descbox">
-            <figure class="mypic" id="m-avatar">
-              <img class="img-thumbnail description float-left margin-right=40px rounded-circle"
-                src="./Assets/Images/mypic.jpg" atl="My Pic">
-            </figure>
-            <div class="namentitle">
-              <h3 id="m-name">Ankit Mudvari</h3>
-              <h4 id="m-title">Information Technology Engineer</h4>
-            </div>
-            <div class="m-links">
-                <a class="menuitem text-center text-uppercase nav-link active" 
-                id="aboutme" href="#">About Me</a>
-                <a class="menuitem text-center text-uppercase nav-link active" 
-                id="portfolio" href="portfilio.html">Portfolio</a>
-                <a class="menuitem text-center text-uppercase nav-link active" 
-                id="contactme" href="#">Contact Me</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-9 m-content">
-          <div class="home-section">
-            <div class="home-section-inner">
-              <div class="home-heading">
-                Hi, I'm Ankit,<br>
-              </div>
-              <h2 class="home-heading2">soon to be <strong>a full stack web developer.</strong><br><br></h2>
+    <main class="m-modal">
+        <div class="container-fluid maincontainer">
+            <div class="row">
+                <div class="col-sm-3 overflow-auto">
+                    <div class="mypic" id="m-avatar">
+                        <img src="./Assets/Images/profilepic.jpg"
+                            class="img-thumbnail description float-left margin-right=40px rounded" alt="profilepic">
+                    </div>
+                    <div class="namentitle">
+                        <h3 id="m-name">Ankit Mudvari</h3>
+                        <h4 id="m-title">Full Stack Web developer</h4>
+                        <h6 id="m-stack">HTML5 || CSS3 || JavaScript || jQuery-3 || Node.js</h6><br>
+                    </div>
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active info" id="v-pills-aboutme-tab" data-toggle="pill"
+                            href="#v-pills-aboutme" role="tab" aria-controls="v-pills-aboutme"
+                            aria-selected="true">About Me</a>
+                        <a class="nav-link info" id="v-pills-portfolio-tab" data-toggle="pill" href="#v-pills-portfolio"
+                            role="tab" aria-controls="v-pills-portfolio" aria-selected="false">Portfolio</a>
+                        <a class="nav-link info" id="v-pills-contactme-tab" data-toggle="pill" href="#v-pills-contactme"
+                            role="tab" aria-controls="v-pills-contactme" aria-selected="false">Contact Me</a>
+                    </div>
+                    <hr class="hidden-sm hidden-md hidden-lg">
+                </div>
+                <div class="col-sm-9 overflow-auto m-content">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-aboutme" role="tabpanel"
+                            aria-labelledby="v-pills-aboutme-tab">
+                            <div class="home-section">
+                                <div class="home-section-inner">
+                                    <div class="home-heading">
+                                        Hi, I'm Ankit,<br>
+                                    </div>
+                                    <h2 class="home-heading2">soon to be <strong>a full stack web
+                                            developer.</strong><br><br></h2>
 
-              <h4 class="home-subheading">
-                I was born and raised in a small but beautiful coutry <strong>Nepal</strong> and<br>
-                currently working for an Atlanta based Automotive Parts Company as an IT Engineer.<br>
-                Being dad of two wonderful and hyperactive kids, most of<br>
-                    my time is spent with them and family. On my spare time,<br>
-                I love exploring new technology especial leaning<br>
-                    towards Web development & design, Automation, Machine Learning and some AI.<br>
-              </h4>
+                                    <h4 class="home-subheading">
+                                        I was born and raised in a small but beautiful coutry <strong>Nepal</strong><br>
+                                        and I am currently working for an Atlanta based Automotive Parts
+                                        Company&nbsp;<br>
+                                        as an IT Engineer.<br>
+                                        Being dad of two wonderful and hyperactive kids, most of my<br>
+                                        time is spent with them. On my spare time, I love exploring new
+                                        technology&nbsp;<br>
+                                        especially leaning towards Web development & design, Automation,<br>
+                                        Machine Learning and some AI.
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-portfolio" role="tabpanel"
+                            aria-labelledby="v-pills-portfolio-tab">
+                            <div class="  portfolio-section">
+                                <div class="screenshot">
+                                    <h3 class="card-heading">Stores NearBy App</h3>
+                                    <img src="./Assets/Images/05StoresNearBy.png" alt="landingpage">
+                                    <img src="./Assets/Images/05iFindaStore.png" alt="storepage">
+                                    <img src="./Assets/Images/05iiFindaRecipe.png" alt="recipepage">
+                                </div>
+                                <div class="projectdetail">
+                                    <p>This application was built to help user find recipes and shop without jumping
+                                        into different portals.
+                                        It lets user search for a recipe based on three different search criteria.
+                                        It gives them nutritional value, ingredients and steps to cook the selected
+                                        food. User can also
+                                        use the shopping portal inside the app to buy the ingredients from a local
+                                        kroger store nearby.
+                                    </p>
+                                    <h4><u>Technology</u></h4>
+                                    <p class="tech">HTML, Materialize CSS, jQuery Modal, JavaScript, Pagination, jQuery
+                                        (API Calls)</p><br>
+                                    <a href="https://ankmud01.github.io/StoresNearBy/" target="_blank"
+                                        class="btn btn-primary">Visit StoresNearBy
+                                    </a>
+                                </div>
+                                <hr class="hidden-sm hidden-md hidden-lg">
+                                <div class="screenshot">
+                                    <h3 class="card-heading">Weather Forecast App</h3>
+                                    <img src="./Assets/Images/04WeatherForecast.png" alt="weatherforecast">
+                                </div>
+                                <div class="projectdetail">
+                                    <p>
+                                        This is where i will enter all description
+                                    </p>
+                                    <h4><u>Technology</u></h4>
+                                    <p class="tech">HTML, Materialize CSS, jQuery Modal, JavaScript, Pagination, jQuery
+                                        (API Calls)</p><br>
+                                    <a href="https://ankmud01.github.io/Weather-App/" target="_blank"
+                                        class="btn btn-primary">Check Weather forecast
+                                    </a>
+                                </div>
+                                <hr class="hidden-sm hidden-md hidden-lg">
+                                <div class="screenshot">
+                                    <h3 class="card-heading">Work Day Scheduler App</h3>
+                                    <img src="./Assets/Images/02WorkDayScheduler.png" alt="scheduler">
+                                </div>
+                                <div class="projectdetail">
+                                    <p>
+                                        This is where i will enter all description
+                                    </p>
+                                    <h4><u>Technology</u></h4>
+                                    <p class="tech">HTML, Materialize CSS, jQuery Modal, JavaScript, Pagination, jQuery
+                                        (API Calls)</p><br>
+                                    <a href="https://ankmud01.github.io/Work-Day-Scheduler/" target="_blank"
+                                        class="btn btn-primary">Schedule Work day
+                                    </a>
+                                </div>
+                                <hr class="hidden-sm hidden-md hidden-lg">
+                                <div class="screenshot">
+                                    <h3 class="card-heading">Password Generator App</h3>
+                                    <img src="./Assets/Images/01PasswordGenerator.png" alt="passwordgen">
+                                </div>
+                                <div class="projectdetail">
+                                    <p>
+                                        This is where i will enter all description
+                                    </p>
+                                    <h4><u>Technology</u></h4>
+                                    <p class="tech">HTML, Materialize CSS, jQuery Modal, JavaScript, Pagination, jQuery
+                                        (API Calls)</p><br>
+                                    <a href="https://ankmud01.github.io/Password-Generator/" target="_blank"
+                                        class="btn btn-primary">Generate a Password
+                                    </a>
+                                </div>
+                                <hr class="hidden-sm hidden-md hidden-lg">
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-contactme" role="tabpanel"
+                            aria-labelledby="v-pills-contactme-tab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="contactme-section">
+                                        <div class="contactme-heading">
+                                            <h1 class="contactme-title">CONTACT ME</h1>
+                                            <p class="contactne-content">If intrested please reach out to me at ... </p>
+                                        </div>
+                                        <form>
+                                            <div class="form-group row">
+                                                <label for="Email" class="col-sm-2 col-form-label">E-mail:</label>
+                                                <div class="col-sm-10">
+                                                    <a class="info" href="mailto:mudvari.ankit@gmail.com"
+                                                        target="_blank">
+                                                        <i class="icon fa fa-envelope"></i>
+                                                        mudvari.ankit@gmail.com
+                                                    </a>
+                                                </div>
+                                                <label for="LinkedIn" class="col-sm-2 col-form-label">LinkedIn:</label>
+                                                <div class="col-sm-10">
+                                                    <a class="info"
+                                                        href="https://www.linkedin.com/in/ankit-mudvari-1792381a7/"
+                                                        target="_blank">
+                                                        <i class="icon fa fa-linkedin"></i>
+                                                        ankit-mudvari
+                                                    </a>
+                                                </div>
+                                                <label for="Github" class="col-sm-2 col-form-label">Github:</label>
+                                                <div class="col-sm-10">
+                                                    <a class="info" href="https://github.com/ankmud01" target="_blank">
+                                                        <i class="icon fa fa-github"></i>
+                                                        ankmud01
+                                                    </a>
+                                                </div>
+                                                <label for="Twitter" class="col-sm-2 col-form-label">Twitter:</label>
+                                                <div class="col-sm-10">
+                                                    <a class="info" href="https://twitter.com/home" target="_blank">
+                                                        <i class="icon fa fa-twitter"></i>
+                                                        @AnkitMudvari
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </main>
-  <!-- jQuery -->
-  <script
-  src="https://code.jquery.com/jquery-3.5.0.min.js"
-  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
-  crossorigin="anonymous"></script>
+    </main>
+    <!-- jquery script -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <!-- bootstrap script  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
