@@ -41,8 +41,6 @@ N/A
 ## Contributing
 N/A
 
-<br>
-<img src="https://gph.is/g/ZlR8K5k" alt="Demo">
 
 ## Questions
 
